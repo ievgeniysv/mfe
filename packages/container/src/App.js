@@ -9,6 +9,7 @@ const generateClassname = createGenerateClassName({
 });
 
 export default () => {
+    console.log('qwe')
     return (
         <BrowserRouter>
             <StylesProvider generateClassName={generateClassname}>
